@@ -1,0 +1,9 @@
+*.xlsx
+*.xls
+nhat_ky_cham_diem.txt
+build/
+dist/
+__pycache__/
+*.spec
+docs/
+test_auto_iuh.py

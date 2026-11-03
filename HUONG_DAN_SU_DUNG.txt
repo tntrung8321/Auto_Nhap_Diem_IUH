@@ -1,0 +1,34 @@
+======================================================================
+   HƯỚNG DẪN DÙNG TOOL TỰ ĐỘNG NHẬP ĐIỂM WRITING IUH (ĐA TRÌNH DUYỆT)
+======================================================================
+
+I. CHUẨN BỊ LẦN ĐẦU (Giải nén file .zip ra 1 thư mục bình thường trên máy):
+- Cách 1 (Nhanh nhất - Không cần cài Python):
+  Nhấp đúp trực tiếp vào file "Auto_Nhap_Diem_IUH.exe" để chạy luôn.
+  (Nếu Windows hiện bảng xanh SmartScreen, bấm "More info" -> "Run anyway").
+
+- Cách 2 (Dự phòng nếu máy chặn file .exe):
+  1. Cài Python 3.12 từ Microsoft Store (hoặc python.org, nhớ tích "Add Python to PATH").
+  2. Nhấp đúp vào file "1_Cai_Dat_Thu_Vien_Lan_Dau.bat" (chỉ làm 1 lần đầu tiên).
+  3. Từ các lần sau, nhấp đúp vào file "2_Chay_Auto_Nhap_Diem.bat" để chạy.
+
+----------------------------------------------------------------------
+II. CÁCH CHẠY NHẬP ĐIỂM CHO TỪNG LỚP (Chỉ 3 bước):
+
+Bước 1: Chuẩn bị file Excel & Trình duyệt
+- Tạo bản Copy của file Excel chấm điểm Writing (nếu có sinh viên vắng thi hoàn toàn không có tên trên web thì xóa dòng sinh viên đó trong bản Copy).
+- Tool TỰ ĐỘNG NHẬN DIỆN cột MSSV, Họ tên, Điểm Q17 (Part 1), Điểm Q18 (Part 2) và tự tìm dòng sinh viên đầu tiên dù file của mỗi giảng viên lệch cột hay khác dòng bắt đầu.
+- Mở sẵn trang luyenthinn của lớp trên trình duyệt (Edge, Chrome, Cốc Cốc, Brave đều được).
+- LƯU Ý QUAN TRỌNG: Giao diện trang luyenthinn phải để ngôn ngữ TIẾNG VIỆT (để có chữ "Yêu cầu chấm điểm", "Tạo bình luận", "trên 5,00").
+
+Bước 2: Chạy Tool
+- Mở "Auto_Nhap_Diem_IUH.exe" (hoặc "2_Chay_Auto_Nhap_Diem.bat").
+- Chọn file Excel (bản Copy) -> Nhấn Open.
+- Kiểm tra dòng thông báo xác nhận sinh viên đầu tiên trên màn hình:
+  + Nhấn ENTER để bắt đầu chạy từ sinh viên đầu tiên.
+  + (Hoặc gõ Số dòng Excel / Mã số sinh viên nếu muốn chấm tiếp từ giữa danh sách).
+- Sau khi nhấn ENTER, trong 5 giây đầu tiên: Bấm chuột 1 cái vào khoảng trắng trên trang luyenthinn của trình duyệt rồi bỏ tay ra khỏi chuột và bàn phím.
+
+Bước 3: Dừng khẩn cấp bất cứ lúc nào
+- Vẩy mạnh chuột kịch vào 1 trong 4 góc màn hình và giữ 1 giây. Tool sẽ dừng ngay và báo rõ đang dừng ở sinh viên nào.
+- Toàn bộ lịch sử chấm điểm được lưu tự động vào file "nhat_ky_cham_diem.txt" nằm cùng thư mục với file Excel của bạn.
