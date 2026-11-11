@@ -1,9 +1,14 @@
 *.xlsx
 *.xls
+*_review.json
+bai_lam_iuh_*.json
+2607AVCB*/
+config.json
+note fix.txt
+.superpowers/
 nhat_ky_cham_diem.txt
 build/
 dist/
 __pycache__/
 *.spec
 docs/
-test_auto_iuh.py

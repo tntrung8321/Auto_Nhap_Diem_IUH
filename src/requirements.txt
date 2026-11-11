@@ -1,0 +1,6 @@
+openpyxl
+pyautogui
+pyperclip
+google-genai>=2.30.1
+pydantic
+pyinstaller
